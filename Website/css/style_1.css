@@ -1,0 +1,200 @@
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+@import "animate.css";
+@import url(http://fonts.googleapis.com/css?family=Marvel);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+/*========================================================
+                    Main layout styles
+=========================================================*/
+#header_1 {
+  position: relative;
+  z-index: 999;
+}
+@media (max-width: 1199px) {
+  #header_1 {
+    text-align: end;
+  }
+}
+.brand {
+  text-align: center;
+}
+.brand h1 {
+  display: inline-block;
+  text-align: left;
+}
+@media (max-width: 979px) {
+  .brand {
+    float: none;
+  }
+}
+.nav {
+  text-align: right;
+}
+@media (max-width: 979px) {
+  .nav {
+    text-align: center;
+    float: none;
+  }
+}
+
+
+.list_3_1 li {
+  float: left;
+}
+.list_3_1 li img {
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+.list_3_1 li a:hover img {
+  opacity: 0.5;
+}
+.list_3_1 li + li {
+  margin-left: 26px;
+}
+@media (min-width: 980px) and (max-width: 1199px) {
+  .list_3_1 img {
+    width: 120px;
+  }
+  .list_3_1 li + li {
+    margin-left: 12px;
+  }
+}
+@media (max-width: 979px) {
+  .list_3_1 {
+    text-align: center;
+  }
+  .list_3_1 li {
+    float: none;
+    margin-bottom: 9px;
+    display: inline-block;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  .list_3_1 li:first-child + li + li + li {
+    margin-left: 0;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  .list_3_1 li:first-child + li + li {
+    margin-left: 0;
+  }
+  .list_3_1 li:first-child + li + li + li + li {
+    margin-left: 0;
+  }
+}
+@media (max-width: 479px) {
+  .list_3_1 li + li {
+    margin-left: 0;
+  }
+}
+
+.header_1.indent_2_1 {
+      padding-bottom: 0px;
+    margin-top: -11px;
+	font: 600 48px/40px 'Marvel', sans-serif;
+}
+.header_1 {
+  text-align: center;
+  
+}
+
+.pdf_1_1 {
+    margin-top: -5px;
+    margin-bottom: 17px;
+    margin-left: -84px;
+    width: 121%;
+}
+.pdf_1_2 {
+    margin-top: -5px;
+    margin-bottom: 17px;
+    margin-left: -29px;
+    width: 121%;
+}
+.pdf_1_3 {
+    margin-top: -5px;
+    margin-bottom: 17px;
+    margin-left: -29px;
+    width: 121%;
+}
+.pdf_1_4 {
+    margin-top: 32px;
+    margin-bottom: 0px;
+    margin-left: 129px;
+    width: 62%;
+}
+.pdf_1_5 {
+       margin-top: 29px;
+    margin-bottom: 7px;
+    margin-left: 174px;
+    width: 22%;
+}
+
+.text_12_3 {
+    font: 600 19px/24px 'Marvel', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 55px;
+	margin-right: 46px;
+	text-align: justify;
+
+}
+.text_20_1 {
+  font: 600 24px/15px 'Marvel', sans-serif;
+  
+}
+.text_4 {
+  font: 00 14px/16px 'Open Sans', sans-serif;
+  margin-bottom: -33px;
+}
+.color_4 {
+  color: rgb(245, 245, 247);
+}
+.color_20_1 {
+  color: #0505F9;
+  text-shadow: 0px 1px 1px #2f4096;
+}
+.info {
+  padding: 3px 0 24px;
+}
+.list_11 {
+    display: inline-block;
+    margin-top: 0px;
+}
+
+.img_5 {
+  margin: 3px 0 9px 0;
+  float: left;
+}
+.img_5 + .img_5 {
+      margin-left: 70px;
+	  
+}
+@media (max-width: 1199px) {
+  .img_5 {
+    float: none;
+  }
+  .img_5 + .img_5 {
+    margin-left: 0;
+  }
+}
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0.0),rgba(255,255,255,0.20)),url('makino.jpg');
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.50),rgba(255,255,255,0.75)), url('cnc  axis.jpg');
+}
+
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0.50),rgba(255,255,255,0.75)), url('CNC-milling.jpg');
+}
+#customers {
+    background-color: #FAF8FA;
+}
+#products {
+    background-color: #fefefe;
+}
+.sub-menu-1
+{
+display: none;
+}
+/*Core variables and mixins*/
